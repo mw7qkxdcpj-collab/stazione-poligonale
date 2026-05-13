@@ -1,39 +1,33 @@
 export default function Home() {
   return (
-    <main className="min-h-screen bg-black text-white">
+    <main className="min-h-screen text-white">
 
-      {/* HEADER */}
-      <header className="flex items-center px-8 py-6">
-
-        {/* LOGO */}
-        <img
-          src="/logo.png"
-          alt="Logo"
-          className="w-14 h-14 object-contain"
-        />
-
-        {/* NOME BLOG */}
-        <h1 className="ml-4 text-3xl font-bold tracking-widest">
-          STAZIONE POLIGONALE
-        </h1>
-
-      </header>
-
-      {/* HOMEPAGE */}
-      <section
-        className="h-[85vh] bg-cover bg-center flex items-center justify-center"
+      {/* SFONDO */}
+      <div
+        className="min-h-screen bg-cover bg-center"
         style={{
           backgroundImage: "url('/sfondo.jpg')",
         }}
       >
 
-        <div className="bg-black/50 p-8 rounded-2xl">
-          <h2 className="text-5xl font-bold text-center">
-            Blog in costruzione...
-          </h2>
-        </div>
+        {/* HEADER */}
+        <header className="flex items-center px-8 py-6 bg-black/40">
 
-      </section>
+          {/* LOGO */}
+          <img
+            src="/logo.png"
+            alt="Logo"
+            className="w-16 h-16 object-contain"
+          />
+
+          {/* TITOLO */}
+          <h1 className="ml-4 text-3xl md:text-5xl font-bold tracking-widest">
+            STAZIONE POLIGONALE
+          </h1>
+
+        </header>
+
+      </div>
 
     </main>
   );
