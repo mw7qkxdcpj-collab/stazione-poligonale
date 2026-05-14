@@ -18,7 +18,7 @@ export default function Home() {
           </h2>
 
           <p className="text-zinc-400 text-lg">
-            Presto arriveranno news, recensioni e guide gaming.
+            Presto arriveranno news, recensioni e guide gaming
           </p>
 
         </div>
