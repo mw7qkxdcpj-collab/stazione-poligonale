@@ -19,6 +19,7 @@ export default function Home() {
 
           <p className="text-zinc-400 text-lg">
             Presto arriveranno news, recensioni e guide gaming
+            proviamo di nuovo
           </p>
 
         </div>
