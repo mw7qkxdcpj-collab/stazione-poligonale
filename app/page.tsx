@@ -21,7 +21,7 @@ export default function Home() {
             className="rounded-full"
           />
 
-          <h1 className="text-5xl font-bold tracking-widest text-green-400">
+          <h1 className="text-5xl font-bold tracking-widest text-white-300">
             STAZIONE POLIGONALE
           </h1>
 
