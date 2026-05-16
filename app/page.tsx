@@ -17,8 +17,6 @@ export default function Home() {
 
   </div>
 
-</main>
-
       {/* OVERLAY SCURO */}
       <div className="min-h-screen bg-black/60 flex flex-col">
 
