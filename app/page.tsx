@@ -5,7 +5,7 @@ export default function Home() {
       {/* HEADER */}
       <header className="p-8 border-b border-zinc-800">
         <h1 className="text-5xl font-bold tracking-widest text-green-400">
-          STAZIONE TEST 2
+          STAZIONE POLIGONALE
         </h1>
       </header>
 
@@ -18,7 +18,7 @@ export default function Home() {
           </h2>
 
           <p className="text-zinc-400 text-lg">
-            Presto arriveranno news, PROVA... 
+            Presto arriveranno news e molto altro 
           </p>
 
         </div>
