@@ -2,7 +2,10 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-cover bg-center text-white flex flex-col">
+    <main
+  className="min-h-screen bg-cover bg-center text-white flex flex-col"
+  style={{ backgroundImage: "url('/sfondo.jpg')" }}
+>
 
       {/* OVERLAY SCURO */}
       <div className="min-h-screen bg-black/60 flex flex-col">
