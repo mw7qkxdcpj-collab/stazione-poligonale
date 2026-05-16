@@ -5,7 +5,7 @@ export default function Home() {
       {/* HEADER */}
       <header className="p-8 border-b border-zinc-800">
         <h1 className="text-5xl font-bold tracking-widest text-green-400">
-          STAZIONE TEST 
+          STAZIONE TEST 2
         </h1>
       </header>
 
