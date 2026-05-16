@@ -29,9 +29,9 @@ export default function RootLayout({
     className="rounded-full"
   />
 
-  <span className="text-white-400 font-bold text-xl tracking-widest">
-    STAZIONE POLIGONALE
-  </span>
+  <span className="text-emerald-400 font-bold text-xl tracking-widest drop-shadow-[0_0_8px_rgba(16,185,129,0.6)]">
+  STAZIONE POLIGONALE
+</span>
 
 </div>
 
