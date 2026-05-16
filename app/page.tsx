@@ -1,17 +1,4 @@
-import Image from "next/image";
 import Link from "next/link";
-<div className="mt-10 grid gap-6">
-
-  <Link href="/blog/primo-articolo">
-    <div className="p-6 border border-zinc-800 rounded-xl hover:border-emerald-400 transition cursor-pointer">
-      <h3 className="text-xl font-bold">Primo articolo</h3>
-      <p className="text-zinc-400">
-        Clicca per leggere il primo articolo del blog.
-      </p>
-    </div>
-  </Link>
-
-</div>
 
 export default function Home() {
   return (
@@ -23,18 +10,36 @@ export default function Home() {
       {/* OVERLAY */}
       <div className="min-h-screen bg-black/60 flex flex-col">
 
-        {/* CONTENUTO */}
-        <section className="flex-1 flex items-center justify-center">
+        {/* HERO */}
+        <section className="flex-1 flex flex-col items-center justify-center px-6 text-center">
 
-          <div className="text-center px-6">
+          <h2 className="text-5xl font-bold mb-6">
+            Benvenuto su
+            <span className="text-emerald-400"> STAZIONE POLIGONALE</span>
+          </h2>
 
-            <h2 className="text-4xl font-bold mb-6">
-              Blog in costruzione
-            </h2>
+          <p className="text-zinc-300 text-lg max-w-2xl">
+            News, riflessioni, progetti e articoli dal mondo creativo e digitale.
+          </p>
 
-            <p className="text-zinc-300 text-lg">
-              Presto arriveranno news e molto altro
-            </p>
+          {/* ARTICOLI */}
+          <div className="mt-14 w-full max-w-2xl grid gap-6">
+
+            <Link href="/blog/primo-articolo">
+
+              <div className="p-6 border border-zinc-800 rounded-2xl bg-black/40 hover:border-emerald-400 hover:bg-black/60 transition duration-300 cursor-pointer text-left">
+
+                <h3 className="text-2xl font-bold mb-2">
+                  Primo articolo
+                </h3>
+
+                <p className="text-zinc-400">
+                  Clicca per leggere il primo articolo del blog.
+                </p>
+
+              </div>
+
+            </Link>
 
           </div>
 
