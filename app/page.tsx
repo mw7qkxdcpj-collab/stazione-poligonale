@@ -14,12 +14,11 @@ export default function Home() {
         <section className="flex-1 flex flex-col items-center justify-center px-6 text-center">
 
           <h2 className="text-5xl font-bold mb-6">
-            Benvenuto su
-            <span className="text-emerald-400"> STAZIONE POLIGONALE</span>
+            Benvenuto su STAZIONE POLIGONALE 
           </h2>
 
           <p className="text-zinc-300 text-lg max-w-2xl">
-            News, riflessioni, progetti e articoli dal mondo creativo e digitale.
+            News, riflessioni e articoli dal mondo videoludico
           </p>
 
           {/* ARTICOLI */}
