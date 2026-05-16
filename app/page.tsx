@@ -2,28 +2,17 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-   <main
-  className="min-h-screen text-white flex flex-col bg-cover bg-center"
-  style={{ backgroundImage: "url('/sfondo.jpg')" }}
->
+    <main
+      className="min-h-screen text-white flex flex-col bg-cover bg-center"
+      style={{ backgroundImage: "url('/sfondo.jpg')" }}
+    >
 
-  <div className="min-h-screen bg-black/60 flex flex-col">
-
-    {/* HEADER */}
-    ...
-
-    {/* CONTENUTO */}
-    ...
-
-  </div>
-
-      {/* OVERLAY SCURO */}
+      {/* OVERLAY */}
       <div className="min-h-screen bg-black/60 flex flex-col">
 
         {/* HEADER */}
         <header className="p-8 border-b border-zinc-700 flex items-center gap-4">
 
-          {/* LOGO */}
           <Image
             src="/logo.png"
             alt="Logo"
@@ -32,7 +21,6 @@ export default function Home() {
             className="rounded-full"
           />
 
-          {/* TITOLO */}
           <h1 className="text-5xl font-bold tracking-widest text-green-400">
             STAZIONE POLIGONALE
           </h1>
