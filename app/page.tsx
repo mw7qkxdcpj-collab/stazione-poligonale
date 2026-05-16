@@ -10,23 +10,6 @@ export default function Home() {
       {/* OVERLAY */}
       <div className="min-h-screen bg-black/60 flex flex-col">
 
-        {/* HEADER */}
-        <header className="p-8 border-b border-zinc-700 flex items-center gap-4">
-
-          <Image
-            src="/logo.png"
-            alt="Logo"
-            width={70}
-            height={70}
-            className="rounded-full"
-          />
-
-          <h1 className="text-5xl font-bold tracking-widest text-white-300">
-            STAZIONE POLIGONALE
-          </h1>
-
-        </header>
-
         {/* CONTENUTO */}
         <section className="flex-1 flex items-center justify-center">
 
