@@ -1,5 +1,9 @@
 export default function PrivacyPolicyPage() {
   return (
+    <main
+      className="min-h-screen text-white bg-cover bg-center"
+      style={{ backgroundImage: "url('/sfondo.jpg')" }}
+    >
     <main className="min-h-screen bg-black text-white px-6 py-20">
       <div className="max-w-3xl mx-auto">
 
@@ -22,6 +26,7 @@ export default function PrivacyPolicyPage() {
         </p>
 
       </div>
+      </main>
     </main>
   );
 }
