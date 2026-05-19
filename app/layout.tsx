@@ -35,41 +35,61 @@ export default function RootLayout({
 
 </div>
 
-          <div className="flex gap-8 text-sm">
+         <div className="flex gap-8 text-sm">
 
-            <Link
-              href="/"
-              className={`relative group transition duration-300 ${
-                pathname === "/"
-                  ? "text-green-400"
-                  : "text-white hover:text-green-400"
-              }`}
-            >
-              Home
-              <span
-                className={`absolute left-0 -bottom-1 h-[2px] bg-green-400 transition-all duration-300 ${
-                  pathname === "/" ? "w-full" : "w-0 group-hover:w-full"
-                }`}
-              />
-            </Link>
+  <Link
+    href="/"
+    className={`relative group transition duration-300 ${
+      pathname === "/"
+        ? "text-white"
+        : "text-zinc-300 hover:text-white"
+    }`}
+  >
+    Home
+    <span
+      className={`absolute left-0 -bottom-1 h-[2px] bg-white transition-all duration-300 ${
+        pathname === "/" ? "w-full" : "w-0 group-hover:w-full"
+      }`}
+    />
+  </Link>
 
-            <Link
-              href="/blog"
-              className={`relative group transition duration-300 ${
-                pathname === "/blog"
-                  ? "text-green-400"
-                  : "text-white hover:text-green-400"
-              }`}
-            >
-              Blog
-              <span
-                className={`absolute left-0 -bottom-1 h-[2px] bg-green-400 transition-all duration-300 ${
-                  pathname === "/blog" ? "w-full" : "w-0 group-hover:w-full"
-                }`}
-              />
-            </Link>
+  <Link
+    href="/chi-siamo"
+    className={`relative group transition duration-300 ${
+      pathname === "/chi-siamo"
+        ? "text-white"
+        : "text-zinc-300 hover:text-white"
+    }`}
+  >
+    Chi siamo / Contatti
+    <span
+      className={`absolute left-0 -bottom-1 h-[2px] bg-white transition-all duration-300 ${
+        pathname === "/chi-siamo"
+          ? "w-full"
+          : "w-0 group-hover:w-full"
+      }`}
+    />
+  </Link>
 
-          </div>
+  <Link
+    href="/privacy-policy"
+    className={`relative group transition duration-300 ${
+      pathname === "/privacy-policy"
+        ? "text-white"
+        : "text-zinc-300 hover:text-white"
+    }`}
+  >
+    Privacy e Cookie Policy
+    <span
+      className={`absolute left-0 -bottom-1 h-[2px] bg-white transition-all duration-300 ${
+        pathname === "/privacy-policy"
+          ? "w-full"
+          : "w-0 group-hover:w-full"
+      }`}
+    />
+  </Link>
+
+</div>
 
         </nav>
 
