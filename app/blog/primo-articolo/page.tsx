@@ -11,7 +11,7 @@ export default function Articolo() {
         <article className="max-w-3xl mx-auto">
 
           <h1 className="text-5xl font-bold text-emerald-400 mb-8">
-            Primo articolo
+             Back to the Past – La nostalgia videoludica che ci riporta al passato
           </h1>
 
           <p className="text-zinc-300 text-lg leading-8 mb-6">

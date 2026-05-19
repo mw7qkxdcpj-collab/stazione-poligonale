@@ -29,11 +29,11 @@ export default function Home() {
               <div className="p-6 border border-zinc-800 rounded-2xl bg-black/40 hover:border-emerald-400 hover:bg-black/60 transition duration-300 cursor-pointer text-left">
 
                 <h3 className="text-2xl font-bold mb-2">
-                  Primo articolo
+                   Back to the Past – La nostalgia videoludica che ci riporta al passato
                 </h3>
 
                 <p className="text-zinc-400">
-                  Clicca per leggere il primo articolo del blog.
+                  
                 </p>
 
               </div>
