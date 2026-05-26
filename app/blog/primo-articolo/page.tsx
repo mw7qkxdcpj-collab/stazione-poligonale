@@ -11,11 +11,11 @@ export default function Articolo() {
 
         <article className="max-w-3xl mx-auto">
 
-          <h1 className="text-5xl font-bold text-emerald-400 mb-8">
+          <h1 className="text-5xl font-bold text-white-400 mb-8">
              Back to the Past – La nostalgia videoludica che ci riporta al passato
           </h1>
 
-          <p className="text-zinc-300 text-lg leading-8 mb-6">
+          <p className="text-zinc-400 text-lg leading-8">
             C'è un fenomeno che da qualche anno a questa parte sembrerebbe aver preso di soprassalto qualsiasi tipo di medium esistente sulla superficie
             del globo terracqueo, si tratta di un preponderante effetto nostalgia. Il proverbiale “Si stava meglio quando si stava peggio” fondamentalmente,
             anche se il “peggio” in questione è come se non fosse mai esistito, andando così a porre un velo sdolcinatamente romantico di quello che è stato
