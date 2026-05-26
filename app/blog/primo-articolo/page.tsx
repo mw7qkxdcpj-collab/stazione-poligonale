@@ -97,12 +97,12 @@ export default function Articolo() {
 </p>
 
 <Image
-  src="/image/articolo-1/alisa.jpeg"
+  src="/images/articolo-1/alisa.jpeg"
   alt="GTA 6"
   width={1200}
   height={700}
   className="rounded-2xl my-8"
-  />
+/>
   <p className="text-zinc-400 leading-8">
     Inserire battuta sul Jill Sandwich
   </p>
