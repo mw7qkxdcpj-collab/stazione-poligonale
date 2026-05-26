@@ -2,103 +2,90 @@ import Image from 'next/image'
 
 export default function Articolo() {
   return (
-    <main className="min-h-screen bg-zinc-950 text-white">
+    <main
+      className="min-h-screen bg-cover bg-fixed bg-center text-white"
+      style={{ backgroundImage: "url('/sfondo.jpg')" }}
+    >
 
-      {/* background soft (niente immagine invasiva) */}
-      <div className="min-h-screen bg-gradient-to-b from-zinc-950 via-zinc-950 to-black px-6 py-20">
+      {/* overlay controllato */}
+      <div className="min-h-screen bg-black/75 px-6 py-20">
 
-        {/* ARTICLE CONTAINER */}
-        <article className="max-w-[720px] mx-auto">
+        <article className="max-w-3xl mx-auto bg-black/40 border border-zinc-800 rounded-2xl p-8 md:p-12 backdrop-blur-sm">
 
-          {/* TITLE */}
-          <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-10 tracking-tight">
+          {/* titolo */}
+          <h1 className="text-4xl md:text-5xl font-bold mb-10 leading-tight">
             Back to the Past – La nostalgia videoludica che ci riporta al passato
           </h1>
 
-          {/* INTRO TEXT */}
-          <div className="space-y-6 text-zinc-300 text-[18px] leading-[1.85]">
+          {/* testo */}
+          <div className="space-y-6 text-zinc-300 text-lg leading-8">
 
             <p>
-              C'è un fenomeno che da qualche anno a questa parte sembrerebbe aver preso di soprassalto qualsiasi tipo di medium esistente sulla superficie
-              del globo terracqueo, si tratta di un preponderante effetto nostalgia...
+              C'è un fenomeno che da qualche anno a questa parte sembrerebbe aver preso di soprassalto qualsiasi tipo di medium esistente sulla superficie del globo terracqueo...
             </p>
 
             <p>
-              Il proverbiale “Si stava meglio quando si stava peggio” fondamentalmente, anche se il “peggio” in questione è come se non fosse mai esistito...
+              Il proverbiale “Si stava meglio quando si stava peggio”...
             </p>
 
           </div>
 
-          {/* IMAGE BLOCK 1 */}
-          <figure className="my-14">
+          {/* immagine */}
+          <div className="my-10">
             <Image
               src="/images/articolo-1/SansUndertale.jpeg"
               alt="Undertale"
               width={1200}
               height={700}
-              className="rounded-xl w-full object-cover"
+              className="rounded-xl w-full"
             />
-            <figcaption className="text-sm text-zinc-500 mt-3 text-center">
+            <p className="text-sm text-zinc-500 mt-2 text-center">
               Schermata di combattimento di Undertale
-            </figcaption>
-          </figure>
+            </p>
+          </div>
 
-          {/* TEXT */}
-          <div className="space-y-6 text-zinc-300 text-[18px] leading-[1.85]">
+          {/* testo */}
+          <div className="space-y-6 text-zinc-300 text-lg leading-8">
 
             <p>
-              Un paio di anni dopo, tra il 2017 e il 2019, su itch.io...
+              Un paio di anni dopo, tra il 2017 e il 2019...
             </p>
 
           </div>
 
-          {/* IMAGE BLOCK 2 */}
-          <figure className="my-14">
+          {/* immagine */}
+          <div className="my-10">
             <Image
               src="/images/articolo-1/faith.jpeg"
               alt="Faith"
               width={1200}
               height={700}
-              className="rounded-xl w-full object-cover"
+              className="rounded-xl w-full"
             />
-            <figcaption className="text-sm text-zinc-500 mt-3 text-center">
-              La famigerata Halloween Hack di EarthBound di Toby Fox
-            </figcaption>
-          </figure>
+            <p className="text-sm text-zinc-500 mt-2 text-center">
+              Halloween Hack di EarthBound
+            </p>
+          </div>
 
-          {/* IMAGE BLOCK 3 */}
-          <figure className="my-14">
+          {/* immagine */}
+          <div className="my-10">
             <Image
               src="/images/articolo-1/earthbound.jpeg"
               alt="Earthbound"
               width={1200}
               height={700}
-              className="rounded-xl w-full object-cover"
+              className="rounded-xl w-full"
             />
-            <figcaption className="text-sm text-zinc-500 mt-3 text-center">
+            <p className="text-sm text-zinc-500 mt-2 text-center">
               Paura eh!?!
-            </figcaption>
-          </figure>
+            </p>
+          </div>
 
-          {/* IMAGE BLOCK 4 */}
-          <figure className="my-14">
-            <Image
-              src="/images/articolo-1/alisa.jpeg"
-              alt="Alisa"
-              width={1200}
-              height={700}
-              className="rounded-xl w-full object-cover"
-            />
-            <figcaption className="text-sm text-zinc-500 mt-3 text-center">
-              Inserire battuta sul Jill Sandwich
-            </figcaption>
-          </figure>
-
-          {/* FINAL TEXT */}
-          <div className="space-y-6 text-zinc-300 text-[18px] leading-[1.85]">
+          {/* chiusura */}
+          <div className="space-y-6 text-zinc-300 text-lg leading-8">
 
             <p>
-              Questi giochi sono soltanto degli esempi, portati dalla mia personale esperienza...
+              Questi giochi sono soltanto degli esempi...
             </p>
 
             <p>
