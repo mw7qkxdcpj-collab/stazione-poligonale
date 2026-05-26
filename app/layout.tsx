@@ -3,7 +3,7 @@
 import "./globals.css";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import Image from "next/image"
+import Image from "next/image";
 
 export default function RootLayout({
   children,
@@ -19,77 +19,106 @@ export default function RootLayout({
         {/* NAVBAR */}
         <nav className="sticky top-0 z-50 border-b border-zinc-800 bg-black/70 backdrop-blur-md">
 
-  <div className="max-w-6xl mx-auto px-4 sm:px-6 py-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
 
-    {/* LOGO */}
-    <div className="flex items-center justify-center sm:justify-start gap-3 hover:scale-105 transition-transform duration-300">
+            <div className="flex flex-col md:flex-row items-center justify-between gap-4">
 
-      <Image
-        src="/logo.png"
-        alt="Logo"
-        width={32}
-        height={32}
-        className="rounded-full"
-      />
+              {/* LOGO */}
+              <div className="flex items-center gap-3 hover:scale-105 transition-transform duration-300">
 
-      <span className="font-bold text-lg sm:text-xl tracking-widest bg-gradient-to-r from-red-400 via-yellow-400 via-green-400 to-blue-400 text-transparent bg-clip-text text-center sm:text-left">
-        STAZIONE POLIGONALE
-      </span>
+                <Image
+                  src="/logo.png"
+                  alt="Logo"
+                  width={32}
+                  height={32}
+                  className="rounded-full"
+                />
 
-    </div>
+                <span className="font-bold text-lg sm:text-xl tracking-widest bg-gradient-to-r from-red-400 via-yellow-400 via-green-400 to-blue-400 text-transparent bg-clip-text text-center md:text-left">
+                  STAZIONE POLIGONALE
+                </span>
 
-    {/* LINKS */}
-    <div className="flex flex-wrap justify-center gap-4 sm:gap-8 text-sm">
+              </div>
 
-      <Link
-        href="/"
-        className={`relative group transition duration-300 ${
-          pathname === "/"
-            ? "text-white"
-            : "text-zinc-300 hover:text-white"
-        }`}
-      >
-        Home
-      </Link>
+              {/* LINK */}
+              <div className="flex flex-wrap justify-center gap-4 sm:gap-6 text-sm sm:text-base">
 
-      <Link
-        href="/chi-siamo"
-        className={`relative group transition duration-300 ${
-          pathname === "/chi-siamo"
-            ? "text-white"
-            : "text-zinc-300 hover:text-white"
-        }`}
-      >
-        Chi siamo
-      </Link>
+                <Link
+                  href="/"
+                  className={`relative group transition duration-300 ${
+                    pathname === "/"
+                      ? "text-white"
+                      : "text-zinc-300 hover:text-white"
+                  }`}
+                >
+                  Home
 
-      <Link
-        href="/privacy-policy"
-        className={`relative group transition duration-300 ${
-          pathname === "/privacy-policy"
-            ? "text-white"
-            : "text-zinc-300 hover:text-white"
-        }`}
-      >
-        Privacy
-      </Link>
+                  <span
+                    className={`absolute left-0 -bottom-1 h-[2px] bg-white transition-all duration-300 ${
+                      pathname === "/" ? "w-full" : "w-0 group-hover:w-full"
+                    }`}
+                  />
+                </Link>
 
-    </div>
+                <Link
+                  href="/chi-siamo"
+                  className={`relative group transition duration-300 ${
+                    pathname === "/chi-siamo"
+                      ? "text-white"
+                      : "text-zinc-300 hover:text-white"
+                  }`}
+                >
+                  Chi siamo / Contatti
 
-  </div>
+                  <span
+                    className={`absolute left-0 -bottom-1 h-[2px] bg-white transition-all duration-300 ${
+                      pathname === "/chi-siamo"
+                        ? "w-full"
+                        : "w-0 group-hover:w-full"
+                    }`}
+                  />
+                </Link>
 
-</nav>
+                <Link
+                  href="/privacy-policy"
+                  className={`relative group transition duration-300 ${
+                    pathname === "/privacy-policy"
+                      ? "text-white"
+                      : "text-zinc-300 hover:text-white"
+                  }`}
+                >
+                  Privacy e Cookie Policy
 
+                  <span
+                    className={`absolute left-0 -bottom-1 h-[2px] bg-white transition-all duration-300 ${
+                      pathname === "/privacy-policy"
+                        ? "w-full"
+                        : "w-0 group-hover:w-full"
+                    }`}
+                  />
+                </Link>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </nav>
+
+        {/* PAGE CONTENT */}
         <main className="animate-fadeIn">
           {children}
         </main>
 
+        {/* ANIMATION */}
         <style jsx global>{`
           @keyframes fadeIn {
             from {
               opacity: 0;
               transform: translateY(10px);
             }
+
             to {
               opacity: 1;
               transform: translateY(0);
