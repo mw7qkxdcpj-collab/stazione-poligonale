@@ -1,3 +1,4 @@
+import Image from 'next/image'
 export default function Articolo() {
   return (
     <main
@@ -17,11 +18,25 @@ export default function Articolo() {
           <p className="text-zinc-300 text-lg leading-8 mb-6">
             Questo è il contenuto del tuo primo articolo.
           </p>
+          <Image
+  src="/images/articolo-1/SansUndertale.jpeg"
+  alt="GTA 6"
+  width={1200}
+  height={700}
+  className="rounded-2xl my-8"
+/>
 
           <p className="text-zinc-400 leading-8">
             Qui puoi scrivere pensieri, news, racconti, aggiornamenti,
             progetti o qualsiasi contenuto del tuo blog.
           </p>
+          <Image
+  src="/images/articolo-1/faith.jpeg"
+  alt="GTA 6"
+  width={1200}
+  height={700}
+  className="rounded-2xl my-8"
+/>
 
         </article>
 

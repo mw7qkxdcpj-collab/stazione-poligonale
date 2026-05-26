@@ -2,6 +2,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
+  
     <main
       className="min-h-screen text-white flex flex-col bg-cover bg-center"
       style={{ backgroundImage: "url('/sfondo.jpg')" }}
