@@ -24,27 +24,30 @@ export default function RootLayout({
             <div className="flex flex-col md:flex-row items-center justify-between gap-4">
 
               {/* LOGO */}
-              <div className="flex items-center gap-3 hover:scale-105 transition-transform duration-300">
-
+              <Link
+                href="/"
+                className="flex items-center gap-3 hover:scale-105 transition-transform duration-300"
+              >
                 <Image
                   src="/logo.png"
-                  alt="Logo"
+                  alt="Logo Stazione Poligonale"
                   width={32}
                   height={32}
                   className="rounded-full"
+                  priority
                 />
 
                 <span className="font-bold text-lg sm:text-xl tracking-widest bg-gradient-to-r from-red-400 via-yellow-400 via-green-400 to-blue-400 text-transparent bg-clip-text text-center md:text-left">
                   STAZIONE POLIGONALE
                 </span>
-
-              </div>
+              </Link>
 
               {/* LINK */}
-              <div className="flex flex-wrap justify-center gap-4 sm:gap-6 text-sm sm:text-base">
+              <div className="flex flex-wrap justify-center gap-2 sm:gap-4 md:gap-6 text-sm sm:text-base">
 
                 <Link
                   href="/"
+                  aria-current={pathname === "/" ? "page" : undefined}
                   className={`relative group transition duration-300 ${
                     pathname === "/"
                       ? "text-white"
@@ -62,6 +65,7 @@ export default function RootLayout({
 
                 <Link
                   href="/chi-siamo"
+                  aria-current={pathname === "/chi-siamo" ? "page" : undefined}
                   className={`relative group transition duration-300 ${
                     pathname === "/chi-siamo"
                       ? "text-white"
@@ -81,6 +85,7 @@ export default function RootLayout({
 
                 <Link
                   href="/privacy-policy"
+                  aria-current={pathname === "/privacy-policy" ? "page" : undefined}
                   className={`relative group transition duration-300 ${
                     pathname === "/privacy-policy"
                       ? "text-white"
@@ -110,25 +115,6 @@ export default function RootLayout({
         <main className="animate-fadeIn">
           {children}
         </main>
-
-        {/* ANIMATION */}
-        <style jsx global>{`
-          @keyframes fadeIn {
-            from {
-              opacity: 0;
-              transform: translateY(10px);
-            }
-
-            to {
-              opacity: 1;
-              transform: translateY(0);
-            }
-          }
-
-          .animate-fadeIn {
-            animation: fadeIn 0.5s ease-out;
-          }
-        `}</style>
 
       </body>
     </html>
