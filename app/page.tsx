@@ -8,20 +8,15 @@ const articoli = [
     excerpt:
       "Scopri come la nostalgia videoludica influenza i giocatori moderni e perché i classici rimangono senza tempo nel panorama gaming contemporaneo.",
     data: "15 Gennaio 2024",
+    autore: "Frank-Stein",
   },
   {
     slug: "secondo-articolo",
-    title: "Indie vs AAA: La rivoluzione creativa dei giochi indipendenti",
+    title: "Dark Souls come specchio videoludico dell'oblio umano",
     excerpt:
-      "Analizziamo come gli sviluppatori indie stanno cambiando l'industria videoludica con creatività e innovazione senza precedenti.",
-    data: "12 Gennaio 2024",
-  },
-  {
-    slug: "terzo-articolo",
-    title: "Storytelling nei videogiochi: Quando la trama supera il gameplay",
-    excerpt:
-      "Scopri i capolavori narrativi che hanno dimostrato come un grande racconto può elevare l'esperienza videoludica a forma d'arte.",
-    data: "8 Gennaio 2024",
+      "Una riflessione sulla condizione umana attraverso i personaggi di Dark Souls: Solaire, Lucatiel e King Vendrick come metafore dell'esistenza.",
+    data: "20 Gennaio 2024",
+    autore: "nick mian",
   },
 ];
 
@@ -93,9 +88,14 @@ export default function Home() {
                   </div>
 
                   <div className="flex items-center justify-between">
-                    <time className="text-sm text-zinc-500">
-                      {articolo.data}
-                    </time>
+                    <div className="flex flex-col gap-1">
+                      <time className="text-sm text-zinc-500">
+                        {articolo.data}
+                      </time>
+                      <span className="text-xs text-zinc-600">
+                        By {articolo.autore}
+                      </span>
+                    </div>
                     <span className="text-emerald-400 group-hover:translate-x-2 transition font-semibold">
                       Leggi →
                     </span>
