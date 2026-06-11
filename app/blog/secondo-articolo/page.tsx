@@ -5,10 +5,10 @@ export default function Articolo() {
     <div className="px-6 py-16">
 
       {/* Container */}
-      <article className="max-w-2xl mx-auto bg-zinc-950 border border-zinc-800 rounded-3xl p-8 md:p-12 shadow-2xl">
+      <article className="max-w-2xl mx-auto bg-zinc-900/75 backdrop-blur-sm border border-zinc-800 rounded-3xl p-8 md:p-12 shadow-2xl">
 
         {/* Titolo */}
-        <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4">
+        <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4 text-white">
           Dark Souls come specchio videoludico dell&apos;oblio umano
         </h1>
         <h2 className="text-xl text-zinc-400 font-normal leading-snug mb-4">

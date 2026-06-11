@@ -8,7 +8,7 @@ export default function Articolo() {
       <article className="max-w-2xl mx-auto bg-zinc-900/75 backdrop-blur-sm border border-zinc-800 rounded-3xl p-8 md:p-12 shadow-2xl">
 
         {/* Titolo */}
-        <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4">
+        <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4 text-white">
           Back to the Past – La nostalgia videoludica che ci riporta al passato
         </h1>
 
