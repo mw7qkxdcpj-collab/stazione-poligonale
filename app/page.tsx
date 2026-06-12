@@ -65,7 +65,7 @@ export default function Home() {
           <h2 className="text-4xl font-bold text-white mb-4 text-center">
             Ultimi Articoli
           </h2>
-          <p className="text-zinc-300 text-lg sm:text-xl max-w-2xl text-center">
+          <p className="text-zinc-300 max-w-2xl text-center">
             Leggete le nostre riflessioni e analasi sul mondo videoluidico
           </p>
 
@@ -106,7 +106,7 @@ export default function Home() {
           </div>
 
           <div className="text-center mt-16">
-            <p className="text-zinc-300 text-lg sm:text-xl max-w-2xl text-center">Prossimamente altri articoli...</p>
+            <p className="text-zinc-300 max-w-2xl text-center">Prossimamente altri articoli...</p>
           </div>
         </div>
       </section>
