@@ -1,24 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 
-const articoli = [
-  {
-    slug: "",
-    title: "Back to the Past – La nostalgia videoludica che ci riporta al passato",
-    excerpt:
-      "Scopri come la nostalgia videoludica influenza i giocatori moderni e perché i classici rimangono senza tempo nel panorama gaming contemporaneo.",
-    data: "26 maggio 2026",
-    autore: "Frank-Stein",
-  },
-  {
-    slug: "",
-    title: "Dark Souls come specchio videoludico dell'oblio umano",
-    excerpt:
-      "Una riflessione sulla condizione umana attraverso i personaggi di Dark Souls: Solaire, Lucatiel e King Vendrick come metafore dell'esistenza.",
-    data: "11 giugno 2026",
-    autore: "gay ingenuo",
-  },
-];
+
 
 const SITE_NAME = "Stazione Poligonale";
 const SITE_DESCRIPTION = "News, riflessioni e articoli sul mondo videoludico";
