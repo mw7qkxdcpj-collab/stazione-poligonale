@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const articoli = [
   {
-    slug: "primo-articolo",
+    slug: "",
     title: "Back to the Past – La nostalgia videoludica che ci riporta al passato",
     excerpt:
       "Scopri come la nostalgia videoludica influenza i giocatori moderni e perché i classici rimangono senza tempo nel panorama gaming contemporaneo.",
@@ -11,12 +11,12 @@ const articoli = [
     autore: "Frank-Stein",
   },
   {
-    slug: "secondo-articolo",
+    slug: "",
     title: "Dark Souls come specchio videoludico dell'oblio umano",
     excerpt:
       "Una riflessione sulla condizione umana attraverso i personaggi di Dark Souls: Solaire, Lucatiel e King Vendrick come metafore dell'esistenza.",
     data: "11 giugno 2026",
-    autore: "nick mian",
+    autore: "gay ingenuo",
   },
 ];
 
