@@ -42,56 +42,7 @@ export default function Home() {
         </Link>
       </section>
 
-     {/* ARTICOLI SECTION */}
-      <section id="blog" className="py-20 px-6">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl font-bold text-white mb-4 text-center">
-            Ultimi Articoli
-          </h2>
-          <p className="text-zinc-400 text-center mb-16 max-w-xl mx-auto">
-            Leggete le nostre riflessioni e analasi sul mondo videoluidico
-          </p>
-
-          <div className="grid gap-8">
-            {articoli.map((articolo) => (
-              <Link
-                key={articolo.slug}
-                href={`/blog/${articolo.slug}`}
-                aria-label={`Leggi l'articolo: ${articolo.title}`}
-              >
-                <article className="group p-8 border border-zinc-800 rounded-2xl bg-black/40 hover:border-emerald-400 hover:bg-black/60 transition duration-300 cursor-pointer flex flex-col justify-between">
-                  <div>
-                    <h3 className="text-2xl font-bold mb-4 group-hover:text-emerald-400 transition text-white leading-tight">
-                      {articolo.title}
-                    </h3>
-
-                    <p className="text-zinc-400 mb-6 leading-relaxed">
-                      {articolo.excerpt}
-                    </p>
-                  </div>
-
-                  <div className="flex items-center justify-between">
-                    <div className="flex flex-col gap-1">
-                      <time className="text-sm text-zinc-500">
-                        {articolo.data}
-                      </time>
-                      <span className="text-xs text-zinc-600">
-                        By {articolo.autore}
-                      </span>
-                    </div>
-                    <span className="text-emerald-400 group-hover:translate-x-2 transition font-semibold">
-                      Leggi →
-                    </span>
-                  </div>
-                </article>
-              </Link>
-            ))}
-          </div>
-	        <div className="text-center mt-16">
-            <p className="text-zinc-500">Prossimamente altri articoli...</p>
-          </div>
-        </div>
-      </section>
+     
 
       {/* FOOTER */}
       <footer className="border-t border-zinc-800 py-12 px-6">
