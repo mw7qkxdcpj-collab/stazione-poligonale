@@ -1,9 +1,8 @@
 import Head from "next/head";
 import Link from "next/link";
 
-const articoli = [
-  
-]
+
+
 const SITE_NAME = "Stazione Poligonale";
 const SITE_DESCRIPTION = "News, riflessioni e articoli sul mondo videoludico";
 
