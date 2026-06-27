@@ -10,7 +10,7 @@ const articoli = [
     data: "27 giugno 2026",
     autore: "Frank-Stein",
   }
-
+]
 const SITE_NAME = "Stazione Poligonale";
 const SITE_DESCRIPTION = "News, riflessioni e articoli sul mondo videoludico";
 
@@ -57,7 +57,7 @@ export default function Home() {
             Ultimi Articoli
           </h2>
           <p className="text-zinc-400 text-center mb-16 max-w-xl mx-auto">
-            Leggete le nostre riflessioni e analasi sul mondo videoluidico
+            Leggete le nostre riflessioni e analisi sul mondo videoluidico
           </p>
 
           <div className="grid gap-8">
