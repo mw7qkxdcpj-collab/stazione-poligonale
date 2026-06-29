@@ -38,10 +38,10 @@ export default function Articolo() {
           </p>
         </div>
 
-        {/* Immagine Faith/EarthBound Hack */}
+        {/* Immagine EarthBound Hack */}
         <div className="my-12">
           <Image
-            src="/images/articolo-1/faith.jpeg"
+            src="/images/articolo-1/earthbound.jpeg"
             alt="La Halloween Hack di EarthBound creata da Toby Fox"
             width={1200}
             height={700}
@@ -59,10 +59,10 @@ export default function Articolo() {
           </p>
         </div>
 
-        {/* Immagine Earthbound */}
+        {/* Immagine Faith */}
         <div className="my-12">
           <Image
-            src="/images/articolo-1/earthbound.jpeg"
+            src="/images/articolo-1/faith.jpeg"
             alt="Screenshot di Earthbound"
             width={1200}
             height={700}
