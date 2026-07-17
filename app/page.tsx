@@ -10,6 +10,13 @@ const articoli = [
     data: "27 giugno 2026",
     autore: "Frank-Stein",
   }
+ {
+    slug: "secondo-articolo",
+    title: "Dark Souls come specchio...",
+    excerpt: "...",
+    data: "17 luglio 2026",
+    autore: "Irpinoparanoico",
+  }
 ]
 const SITE_NAME = "Stazione Poligonale";
 const SITE_DESCRIPTION = "News, riflessioni e articoli sul mondo videoludico";
