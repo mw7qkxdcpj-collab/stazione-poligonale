@@ -101,7 +101,10 @@ export default function Articolo() {
             2 — Dimenticarsi mentre si vive
           </h3>
           <p>
-          Se c'è un momento in cui Dark Souls smette di parlarti del mondo e inizia a parlarti di identità, non quella epica composta da eroi e imprese, ma quella quotidiana, quella fragile che esiste finchè qualcuno riesce a riconoscerla. Ed è qui che entra in scena Lucatiel of Mirrah.
+          C'è un momento in cui Dark Souls smette di parlarti del mondo e inizia a parlarti di identità, non quella epica composta da eroi e imprese, ma quella quotidiana, quella fragile che esiste finchè qualcuno riesca a riconoscerla.
+          </p>
+          <p>
+            Ed è qui che entra in scena Lucatiel of Mirrah.
           </p>
           <p>
           Lucatiel non cade.
