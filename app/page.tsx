@@ -12,7 +12,7 @@ const articoli = [
   },
  {
     slug: "secondo-articolo",
-    title: " Dark Souls come specchio videoludico dell&apos;oblio umano ",
+    title: " Dark Souls come specchio videoludico dell'oblio umano ",
     excerpt: "Una riflessione sulla condizione umana giocando ai Dark Souls",
     data: "17 luglio 2026",
     autore: "Irpinoparanoico",
