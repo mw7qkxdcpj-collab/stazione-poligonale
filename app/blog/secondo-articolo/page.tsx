@@ -15,22 +15,23 @@ export default function Articolo() {
           Una riflessione sulla condizione umana giocando ai Dark Souls
         </h2>
 
-        {/* Autore */}
-        <p className="text-sm text-zinc-500 italic text-center mb-10">
-          By nick mian
-        </p>
 
         {/* Intro */}
         <div className="space-y-6 text-zinc-300 text-lg leading-9">
           <p>
-            Nella vita, come nei soulslike (in particolare i Dark Souls che analizzeremo oggi), l&apos;oblio non è un evento improvviso, ma un processo lento, quasi impercettibile. La &quot;maledizione dei non morti&quot; non è soltanto una scusa narrativa per giustificare il &quot;respawn&quot;, ma diventa il concetto pulsante dell&apos;esistenzialismo. Esisti, ma perdendo parti di te lungo il percorso tortuoso della vita.
+            Nella vita, come nei soulslike (in particolare i Dark Souls che analizzeremo oggi), l'oblio non è un evento improvviso, ma un processo lento, quasi impercettibile. 
           </p>
           <p>
-            Questo concetto, nei souls, viene reso unico, alternato da un gameplay arduo e soddisfacente, ma con un messaggio di fondo che si cela dietro a ogni racconto, quello della perdita di sé come qualcosa di inevitabile, quasi naturale.
+          La ''maledizione dei non morti'' non è soltanto una scusa narrativa per giustificare il ''respawn'', ma diventa il concetto pulsante dell'esistenzialismo. Esisti, ma perdendo parti di te lungo il percorso tortuoso della vita.
           </p>
           <p>
-            Quindi, miei cari lettori, se non siete crollati sotto effetto di droghe, assaliti da una profonda depressione, mi piacerebbe analizzare con voi la mia personale top tre dei personaggi che più mi hanno ispirato a una riflessione esistenzialista.
-            Mettetevi in posizione (come il Crestfall Warrior di Dark Souls 1, per stare più comodi) e godetevi questo viaggio psico-filosofico all&apos;interno di Dark Souls, con allegate immagini di gioco cruenti, per mettere un po&apos; di colore in queste righe buie.
+            E' proprio questo che rende i Soulslike qualcosa di più di un semplice videogiochi. Nascosto dietro ai combattimenti, alle rovine e ai boss che ci costringono a riprovare e riprovare decine di volte, si cela una domanda profondamente umana: costa resta di noi quando iniziamo a dimenticare chi siamo?
+          </p>
+          <p>
+            E' con queste premesse, tutt'altro che sarcastiche, che ci addentreremo nella conoscenza di tre personaggi che, più di tutti, mi hanno spinto a guardare Dark Souls, non solo come un gioco, ma come a una riflessione sull'esistenza.
+          </p>
+          <p>
+            Mettetevi in posizione (come il Crestfall Warrior di Dark Souls 1, per stare più comodi) e godetevi questo viaggio psico-filosofico all'interno di Dark Souls, con allegate immagini di gioco cruenti, per mettere un pò di colore in queste righe buie. 
           </p>
         </div>
 
@@ -54,17 +55,30 @@ export default function Articolo() {
             1 — Il sole come speranza e meta
           </h3>
           <p>
-            Il primo della lista e non poteva non essere lui. Mi perdonerete amici, perché forse ciò che esprimerò sarà un qualcosa di scontato, ma non potevo non partire, per questa analisi, da Solaire di Astora. È il Personaggio, quello che, quando lo incontriamo, riesce subito a rubare il nostro amore e la nostra stima e creare così un legame con lui molto profondo.
+          Il primo della lista e non poteva non essere lui.
           </p>
           <p>
-            È di forte impatto emotivo, poiché viene subito da pensare che sia, senza dubbio, una personalità avvolta da un entusiasmo contagioso, ma che, se analizzato a fondo durante lo svolgimento della storia, ci fa rendere conto di quanto sia avvolto da una profonda incertezza, fragilità e inquietudine di fondo.
+           Solaire di Astora, uno di quei personaggi che riescono a illuminare il mondo di Dark Souls fin dal primo incontro.
+           </p>
+          <p>
+            E' il Personaggio, quello che, sembra illuminare il mondo che lo circonda. In un universo fatto di rovine e disperazione, il suo entusiasmo appare quasi fuori dagli schemi rendendolo iconico, ed è proprio per questo che è impossibile dimenticarlo.
           </p>
           <p>
-            Capiremo subito, andando avanti nel gioco, che è un essere in cerca costante di un qualcosa che lo tenga aggrappato al mondo, che ha il bisogno di sperare che da qualche parte possa esistere il suo &quot;sole&quot;. Giocando e approfondendo la sua storia, vediamo che Solaire vive il suo destino peggiore: trovare una luce, ma è un qualcosa che lo corrode dall&apos;interno, non è una rivelazione, è una sua illusione, a cui lui si aggrappa troppo forte.
+            Ma basta proseguire nel viaggio per accorgersi che dietro quel fare sereno, tranquillo e confortevole si nasconde qualcosa di molto più fragile.
           </p>
           <p>
-            Il mio amore sconfinato per questo personaggio nasce proprio da qui, il parallelismo nel sentirmi anche io così: una persona che, esattamente come Solaire, si aggrappa all&apos;immaginario di questo &quot;Sole&quot;, perseguendo un qualcosa di utopico e metafisico per alleviare le proprie sofferenze, illudendosi che quella percezione, quel credo, sia più forte di qualsiasi cosa, ma a cui nessuno potrà mai dare la garanzia che quel &quot;sole&quot; esista davvero.
+            Non è la semplice ricerca del suo ''Sole'', ma un qualcosa che renda sopportabile il suo cammino. Il ''Sole' diventa il nome che da alla speranza: una verità; una metà o addirittura un credo.
           </p>
+          <p>
+            Ed è qui che nasce sul dramma.
+          </p>
+          <p>
+            Alla fine lui troverà davvero una luce, ma non è un a rivelazione. E' un'ossessione. Più la ricerca del Sole diventa costante, più smette di vedere tutto il resto. La speranza che gli ha dato benzina di vita, finisce per bruciarlo.
+          </p>
+          <p>
+            Forse il dramma di Solaire non è aver inseguito un'illusione. Il suo dramma è aver affidato la propria esistenza e qualcosa che doveva trovare fuori di sè. E quando quel Sole si rivela diverso da come lo aveva immaginato, non resta più nulla a cui aggrapparsi.
+          </p>
+
         </div>
 
         {/* Immagine Solaire */}
@@ -77,7 +91,7 @@ export default function Articolo() {
             className="rounded-2xl w-full object-cover"
           />
           <p className="text-sm text-zinc-500 mt-3 italic text-center">
-            Per chi non lo conoscesse, non è un saluto romano al quadrato, è solo l&apos;iconica posa di Solaire 👍🙋✊
+          ''Per chi non lo conoscesse, non è un saluto romano al quadrato, è solo l'iconica posa di Solaire 👍🙋✊''
           </p>
         </div>
 
@@ -87,16 +101,31 @@ export default function Articolo() {
             2 — Dimenticarsi mentre si vive
           </h3>
           <p>
-            Se c&apos;è un momento in cui Dark Souls smette di essere solo un viaggio tra rovine e spadate a NPC inutili per farmare qualche anima extra, per diventare qualcosa di più intimo — smettendo di parlarti del mondo per iniziare a parlarti di identità — non quella epica composta da eroi e imprese, ma quella quotidiana, quella fragile che esiste finché qualcuno riesce a riconoscerla. Ed è qui che entra in scena Lucatiel of Mirrah.
+          Se c'è un momento in cui Dark Souls smette di parlarti del mondo e inizia a parlarti di identità, non quella epica composta da eroi e imprese, ma quella quotidiana, quella fragile che esiste finchè qualcuno riesce a riconoscerla. Ed è qui che entra in scena Lucatiel of Mirrah.
           </p>
           <p>
-            Lucatiel non cade e non fallisce, ma semplicemente si consuma. Ogni incontro con lei dà la percezione che le manchi un pezzo, come se qualcosa le fosse stato sottratto. Non c&apos;è un momento preciso in cui tutto si spezza, ma solo un lento e inesorabile slittamento verso qualcosa di indefinito. Ed è proprio questa gradualità a renderla così vicina: non è una tragedia improvvisa, è un processo.
+          Lucatiel non cade.
           </p>
           <p>
-            A un certo punto, però, ci fa una richiesta — cruda, disarmante nella sua semplicità: ricordarla. Non ci chiede di essere salvata, ci chiede di non essere cancellata. Nei Souls l&apos;identità non viene garantita, esiste finché qualcuno la riconosce, finché resta impressa da qualche parte, anche solo nella memoria di chi l&apos;ha incontrata.
+            Non fallisce.
           </p>
           <p>
-            C&apos;è qualcosa di fortemente crudele e allo stesso tempo di molto autentico nel modo in cui Dark Souls tratta Lucatiel: non puoi salvarla, non puoi invertire il processo. Puoi solo esserci e, soprattutto, ricordare.
+          Ma semplicemente si consuma.
+          </p>
+          <p>
+            Ogni incontro con lei sembra portar via un altro frammento di ciò che era.
+          </p>
+          <p>
+            Non c'è un momento preciso in cui tutto questo si spezza, ma esiste solo un lento e inesorabile slittamento verso qualcosa di indefinito.
+          </p>
+          <p>
+            A un certo punto, però, ci fa una richiesta semplice, devastante nella sua semplicità: ricordarla!
+          </p>
+          <p>
+            Non ci chiede di essere salvata, ma ci chiede di non essere cancellata.
+          </p>
+          <p>
+            Forse questo è la forma più crudele dell'oblio in Dark Souls: non è la paura di smettere di esistere, ma la paura di smettere di essere ricordati.
           </p>
         </div>
 
@@ -110,7 +139,7 @@ export default function Articolo() {
             className="rounded-2xl w-full object-cover"
           />
           <p className="text-sm text-zinc-500 mt-3 italic text-center">
-            Raro estratto del gioco in cui Lucatiel mostra un momento di profonda felicità 😄😎
+          "Estratto del gioco in cui Lucatiel mostra un raro momento di profonda e rara felicità😄😎"
           </p>
         </div>
 
@@ -120,13 +149,25 @@ export default function Articolo() {
             3 — Re senza Regno
           </h3>
           <p>
-            Dark Souls 2 è oggettivamente una miniera piena di cocci interessanti da picconare e spolverare, perché nonostante l&apos;oblio — in questo caso videoludico — riesce comunque ad avere un significato di fondo molto forte attraverso i suoi personaggi.
+          Se Lucatiel rappresenta la paura di essere dimenticati, King Vendrick incarna un'altra forma di oblio: quella di chi comprende troppo tardi il peso delle proprie scelte.
           </p>
           <p>
-            L&apos;ultimo di questa analisi sulla vita è King Vendrick, l&apos;eroe più lucido della saga, che chiude questo cerchio. Nelle prime interazioni nel gioco capiamo che è un&apos;anima vagante: non è più un sovrano, è una figura vuota che vaga senza uno scopo. Eppure questa è la sua forza, poiché rappresenta appieno la presa di coscienza nel momento in cui si perde tutto — i propri errori, le conseguenze delle proprie scelte. Il problema, però, è che questa consapevolezza non lo porta a nulla.
+          Quando abbiamo le prime interazioni capiamo che davanti non abbiamo un sovrano, ma un uomo, un'anima vagante, è un sovrano spodestato, una figura vuota che vaga senza uno scopo.
           </p>
           <p>
-            L&apos;aspetto più crudele dei Dark Souls è proprio questo: ci aiutano a prendere coscienza, tramite i suoi protagonisti, che capire non ci permetterà di salvarci. Resteremo solo con l&apos;amaro in bocca pensando a ciò che abbiamo perso e che non tornerà più.
+            Eppure questa è la sua forza, poichè rappresenta appieno la presa di coscienza nel momento in cui si perde tutto, i propri errori e si inizia a fare i conti con le conseguenze delle proprie scelte, il problema per lui, però, è che questa consapevolezza non lo porta a nulla.
+          </p>
+          <p>
+            Ed è qui che si compie la tragedia.
+          </p>
+          <p>
+            Dark souls ci suggerisce una verità tanto semplice quanto scomoda: capire non significa salvarsi.
+          </p>
+          <p>
+            Esistono errori che comprendiamo soltanto quando non possiamo più rimediarvi.
+          </p>
+          <p>
+            Vendrick continua a camminare, non perchè speri ancora, ma perchè, ormai, non gli resta altro che la coscienza per ciò che ha perduto.
           </p>
         </div>
 
@@ -147,10 +188,16 @@ export default function Articolo() {
         {/* Conclusione */}
         <div className="space-y-6 text-zinc-300 text-lg leading-9">
           <p>
-            In conclusione, possiamo affermare che Dark Souls non ti lascia con una vittoria, ma con una sensazione. Non insegna a vincere, ma a riconoscere: la fatica, la perdita, la solitudine e la lucidità che arriva sul finire.
+          Dark Souls non ti lascia con una vittoria, ma con una sensazione.
+          </p>
+          <p>
+            Non insegna a vincere, ma a riconoscere: la fatica, la perdita, la solitudine e la lucidità che arriva sul finire.
+          </p>
+          <p>
+            E' uno specchio silenzioso che non consola, ma riflette, ed è proprio qui, forse, che riesce a insinuarsi nel cuore e nella mente di ogni suo estimatore.
           </p>
           <p className="text-zinc-400 italic">
-            È uno specchio silenzioso che non consola, ma riflette. Ed è proprio qui, forse, che riesce a insinuarsi nel cuore e nella mente di ogni suo estimatore.
+          da uno spunto riflessivo di Irpinoparanoico
           </p>
         </div>
 
